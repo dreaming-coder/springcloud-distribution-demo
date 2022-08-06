@@ -12,3 +12,6 @@ spring:
         username: nacos
         password: nacos
         namespace: public
+stock-service:
+  ribbon:
+    NFLoadBalancerRuleClassName: com.ice.order.rule.CustomRule
