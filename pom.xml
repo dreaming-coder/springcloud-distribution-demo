@@ -6,6 +6,7 @@
         <module>demo-order</module>
         <module>demo-order</module>
         <module>demo-stock</module>
+        <module>demo-product</module>
     </modules>
 
     <groupId>com.ice</groupId>

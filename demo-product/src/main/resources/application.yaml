@@ -1,0 +1,14 @@
+server:
+  port: 8084
+#应用名称（nacos会将该名称当成服务名称）
+spring:
+  application:
+    name: product-service
+  cloud:
+    nacos:
+      server-addr: 118.25.151.78:8848
+      # 这些即使不配也有默认值
+      discovery:
+        username: nacos
+        password: nacos
+        namespace: public
