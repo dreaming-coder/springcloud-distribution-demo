@@ -3,6 +3,7 @@ package com.ice.order.controller;
 import com.ice.order.feign.ProductClient;
 import com.ice.order.feign.StockClient;
 import org.springframework.beans.factory.annotation.Autowired;
+import org.springframework.beans.factory.annotation.Value;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
 import org.springframework.web.bind.annotation.RequestMapping;
